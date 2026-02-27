@@ -73,7 +73,7 @@ During Greed regimes:
 ## How to Run
 
 1. Clone repository:
-   git clone <repo_url>
+    git clone https://github.com/aakankshak21/trader-sentiment-analysis.git
 
 2. Create virtual environment:
    python -m venv venv
