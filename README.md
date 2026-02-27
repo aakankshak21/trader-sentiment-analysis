@@ -10,6 +10,15 @@ The goal is to uncover behavioral patterns that can inform smarter trading strat
 ---
 
 ## Methodology
+## Data
+
+Raw datasets are not included in the repository due to size constraints.
+
+Please download the datasets from the original links provided :
+- Sentiment dataset: https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing
+- Trader dataset: https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing
+
+Place the files inside the `data/` directory before running the notebook.
 
 ### 1. Data Preparation
 - Loaded sentiment and trader datasets
@@ -82,8 +91,11 @@ During Greed regimes:
 3. Install dependencies:
    pip install -r requirements.txt
 
-4. Run notebook:
-   notebook/analysis.ipynb
+4. Launch Jupyter Notebook:
+    jupyter notebook
 
-Run Streamlit dashboard:
+5. Run notebook:
+   notebooks/analysis.ipynb
+
+6. Run Streamlit dashboard:
     python -m streamlit run app.py
